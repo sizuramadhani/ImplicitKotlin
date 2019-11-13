@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:tools="http://schemas.android.com/tools"
+      tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+                android:id="@+id/nav_home"
+                android:icon="@drawable/ic_home_black_24dp"
+                android:title="@string/menu_home"/>
+        <item
+                android:id="@+id/nav_camera"
+                android:icon="@drawable/ic_menu_camera"
+                android:title="@string/menu_camera"/>
+        <item
+                android:id="@+id/nav_audiomanager"
+                android:icon="@drawable/ic_keyboard_voice_black_24dp"
+                android:title="@string/menu_audioM"/>
+        <item
+                android:id="@+id/nav_video"
+                android:icon="@drawable/ic_menu_slideshow"
+                android:title="@string/menu_video"/>
+        <item
+                android:id="@+id/nav_tts"
+                android:icon="@drawable/ic_menu_manage"
+                android:title="@string/menu_tts"/>
+        <item
+                android:id="@+id/nav_audiorecorder"
+                android:icon="@drawable/ic_audiotrack_black_24dp"
+                android:title="@string/menu_audioR"/>
+        <item
+                android:id="@+id/nav_email"
+                android:icon="@drawable/ic_email_black_24dp"
+                android:title="@string/menu_email"/>
+        <item
+                android:id="@+id/nav_wifi"
+                android:icon="@drawable/ic_wifi_black_24dp"
+                android:title="@string/menu_wifi"/>
+        <item
+                android:id="@+id/nav_browser"
+                android:icon="@drawable/ic_open_in_browser_black_24dp"
+                android:title="@string/menu_browser"/>
+        <item
+                android:id="@+id/nav_whatsapp"
+                android:icon="@drawable/ic_sms_black_24dp"
+                android:title="@string/menu_whatsapp"/>
+        <item
+                android:id="@+id/nav_phone"
+                android:icon="@drawable/ic_local_phone_black_24dp"
+                android:title="@string/menu_phone"/>
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                    android:id="@+id/nav_share"
+                    android:icon="@drawable/ic_menu_share"
+                    android:title="@string/menu_share"/>
+            <item
+                    android:id="@+id/nav_send"
+                    android:icon="@drawable/ic_menu_send"
+                    android:title="@string/menu_send"/>
+        </menu>
+    </item>
+
+</menu>

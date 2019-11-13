@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:tools="http://schemas.android.com/tools"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:background="@color/colorAccent">
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center"
+            tools:context=".MainActivity">
+
+        <Button android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:text="phone"
+                android:layout_marginTop="10dp"
+                android:id="@+id/btnphone"/>
+
+        <Button android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:text="sms"
+                android:layout_marginTop="10dp"
+                android:id="@+id/btnsms"/>
+
+        <Button android:layout_width="350dp"
+                android:layout_marginTop="10dp"
+                android:layout_height="wrap_content"
+                android:text="camera"
+                android:id="@+id/btncamera"/>
+
+        <Button android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+
+                android:text="video"
+                android:id="@+id/btnvideo"/>
+        <Button android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+
+                android:text="email"
+                android:id="@+id/btnemail"/>
+        <Button android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+
+                android:text="browsert"
+                android:id="@+id/btnbrowser"/>
+        <Button android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+
+                android:text="tts"
+                android:id="@+id/btntts"/>
+        <Button android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+
+                android:text="audio manager"
+                android:id="@+id/btnaudiomanager"/>
+        <Button android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+
+                android:text="audio recorder"
+                android:id="@+id/btnaudiorecorder"/>
+        <Button android:layout_width="350dp"
+                android:layout_marginTop="10dp"
+
+                android:layout_height="wrap_content"
+                android:text="Wifi"
+                android:id="@+id/btnwifi"/>
+        <Button android:layout_width="350dp"
+                android:layout_marginTop="10dp"
+
+                android:layout_height="wrap_content"
+                android:text="WhatsApp"
+                android:id="@+id/btnwa"/>
+        <Button android:layout_width="350dp"
+                android:layout_marginTop="10dp"
+
+                android:layout_height="wrap_content"
+                android:text="youtube"
+                android:id="@+id/btnyoutube"/>
+
+    </LinearLayout>
+
+</ScrollView>
